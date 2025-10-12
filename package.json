@@ -1,0 +1,37 @@
+{
+  "name": "merge-tailwind-rn",
+  "version": "2.0.0",
+  "description": "Merge Tailwind-style classes for React Native + NativeWind, with support for responsive and pseudo-classes.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amir-majidi/merge-tailwind-rn.git"
+  },
+  "homepage": "https://github.com/amir-majidi/merge-tailwind-rn#readme",
+  "bugs": {
+    "url": "https://github.com/amir-majidi/merge-tailwind-rn/issues"
+  },
+  "keywords": [
+    "react-native",
+    "tailwind",
+    "nativewind",
+    "twmerge",
+    "cva",
+    "class-variance-authority",
+    "merge"
+  ],
+  "author": "Amir Majidinia",
+  "license": "MIT",
+  "devDependencies": {
+    "clsx": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
+}
