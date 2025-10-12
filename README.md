@@ -1,5 +1,8 @@
 # merge-tailwind-rn
 
+[![KOFiMD7.md.png](https://iili.io/KOFiMD7.md.png)](https://freeimage.host/i/KOFiMD7)
+
+
 Merge Tailwind-style classes for **React Native** + **NativeWind**, inspired by `twmerge`.  
 Supports responsive variants (`sm:`, `md:`, …) and pseudo-classes (`hover:`, `focus:`, …).  
 External classes always override internal classes (like `!important`).
@@ -55,24 +58,24 @@ const baseInputContainer = cva(
     )}
     {...props}
   />
-</View>
+</View>;
 ```
 
 ---
 
 ## Features
 
-- Automatic merge of Tailwind classes for React Native  
-- Responsive and pseudo-class aware  
-- External classes override internal ones  
-- Fully compatible with NativeWind and cva  
-- TypeScript-ready with autocomplete  
+- Automatic merge of Tailwind classes for React Native
+- Responsive and pseudo-class aware
+- External classes override internal ones
+- Fully compatible with NativeWind and cva
+- TypeScript-ready with autocomplete
 
 ---
 
 ## Author
 
-Amir Majidinia  
+Amir Majidinia
 
 ---
 

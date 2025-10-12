@@ -1,6 +1,6 @@
 {
   "name": "merge-tailwind-rn",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Merge Tailwind-style classes for React Native + NativeWind, with support for responsive and pseudo-classes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,7 +31,6 @@
   "author": "Amir Majidinia",
   "license": "MIT",
   "devDependencies": {
-    "clsx": "^2.0.0",
     "typescript": "^5.9.2"
   }
 }
