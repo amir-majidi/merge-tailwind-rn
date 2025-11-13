@@ -31,7 +31,7 @@ const GROUPS: Record<string, RegExp[]> = {
   bgOpacity: [withPrefixes(/^bg-opacity-(\d{1,3})$/)],
 
   // Borders
-  border:  [withPrefixes(/^border(-(0|2|4|8))?$/)],
+  border: [withPrefixes(/^border(-(0|2|4|8))?$/)],
   borderT: [withPrefixes(/^border-t(-(0|2|4|8))?$/)],
   borderR: [withPrefixes(/^border-r(-(0|2|4|8))?$/)],
   borderB: [withPrefixes(/^border-b(-(0|2|4|8))?$/)],
@@ -39,7 +39,9 @@ const GROUPS: Record<string, RegExp[]> = {
   borderX: [withPrefixes(/^border-x(-(0|2|4|8))?$/)],
   borderY: [withPrefixes(/^border-y(-(0|2|4|8))?$/)],
 
-  borderColor: [withPrefixes(/^border-(black|white|transparent|[a-z]+-\d{1,4})$/)],
+  borderColor: [
+    withPrefixes(/^border-(black|white|transparent|[a-z]+-\d{1,4})$/),
+  ],
   borderStyle: [withPrefixes(/^border-(solid|dashed|dotted|double|none)$/)],
   borderRadius: [withPrefixes(/^rounded(-(sm|md|lg|xl|2xl|3xl|full))?$/)],
 
@@ -63,6 +65,8 @@ const GROUPS: Record<string, RegExp[]> = {
 
   // Gap & Space
   gap: [withPrefixes(/^gap-(\d+)$/)],
+  gapX: [withPrefixes(/^gap-x-(\d+)$/)],
+  gapY: [withPrefixes(/^gap-y-(\d+)$/)],
   space: [withPrefixes(/^space-(x|y)-(\d+)$/)],
 
   // Layout & Flex/Grid
@@ -103,7 +107,7 @@ const GROUPS: Record<string, RegExp[]> = {
   truncate: [withPrefixes(/^(truncate|text-ellipsis|text-clip)$/)],
 
   // Transforms
-  scale: [withPrefixes(/^scale(-(x|y))?-(\d+)$/)],
+  scale: [withPrefixes(/^-?scale(-(x|y))?-(\d+)$/)], 
   rotate: [withPrefixes(/^rotate-(-?\d+)$/)],
   translate: [withPrefixes(/^-?translate-(x|y)-(-?\d+)$/)],
   skew: [withPrefixes(/^-?skew-(x|y)-(-?\d+)$/)],
