@@ -1,6 +1,6 @@
 {
   "name": "merge-tailwind-rn",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Merge Tailwind-style classes for React Native + NativeWind, with support for responsive and pseudo-classes.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
